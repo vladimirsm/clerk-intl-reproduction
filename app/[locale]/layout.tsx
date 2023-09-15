@@ -20,7 +20,10 @@ export default function RootLayout({
   const locale = useLocale();
 
   return (
-    <ClerkProvider localization={locale === "dk" ? daDK : enUS}>
+    <ClerkProvider
+      clerkJSVersion="4.58.0-snapshot.d446acb"
+      localization={locale === "dk" ? daDK : enUS}
+    >
       <html lang="en">
         <body className={inter.className}>{children}</body>
       </html>

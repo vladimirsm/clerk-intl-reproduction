@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/localizations": "^1.24.1",
-    "@clerk/nextjs": "^4.23.2",
+    "@clerk/nextjs": "4.24.0-snapshot.d446acb",
     "@types/node": "20.5.1",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",

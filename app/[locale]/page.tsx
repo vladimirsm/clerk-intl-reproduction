@@ -1,12 +1,7 @@
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Translated from "./Translated";
+import Organization from "./Organisation";
 
 export default function Home() {
   return (
@@ -19,6 +14,7 @@ export default function Home() {
       </SignedOut>
       <LanguageSwitcher />
       <Translated />
+      <Organization />
     </main>
   );
 }
